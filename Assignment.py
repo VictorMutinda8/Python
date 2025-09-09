@@ -34,7 +34,7 @@ def main():
         # Write to new file
         with open(output_filename, "w", encoding="utf-8") as outfile:
             outfile.write(modified_content)
-        print(f"Success 🎉 Modified file saved as '{output_filename}'")
+        print(f"Success  Modified file saved as '{output_filename}'")
     except Exception as e:
         print(f"Error writing to file: {e}")
 
